@@ -5,9 +5,15 @@ In this project, we investigate the potential of machine learning models to pred
 
 ## Dataset
 - The file `lab_data` contains structured clinical data with all personally identifiable information removed.
-- The PBS image dataset used in this project is not publicly available. 
+- The PBS image dataset used in this project is not publicly available.
 
-## Train MIL model with PBS and WBC
+## Train CNN models from PBS
+
+Run `resnet.ipynb` or `densenet.ipynb`.
+The predicted 1, 3, 5, and 7-day mortality outcomes for the testing set will be saved.
+For example, the 1-day mortality predictions and corresponding ground truth from ResNet will be saved as `resnet_1d_pred.npy` and `resnet_1d_labels.npy`, respectively.
+
+## Train MIL models from PBS and WBC
 
 For mortality prediction, run `MIL_mortality.ipynb`
 - Set `DAYS` to the number of days for predicting mortality
