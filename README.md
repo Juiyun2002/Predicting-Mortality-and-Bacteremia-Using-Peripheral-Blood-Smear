@@ -9,9 +9,8 @@ In this project, we investigate the potential of machine learning models to pred
 
 ## Train CNN models from PBS
 
-Run `resnet.ipynb` or `densenet.ipynb`.
-The predicted 1, 3, 5, and 7-day mortality outcomes for the testing set will be saved.
-For example, the 1-day mortality predictions and corresponding ground truth from ResNet will be saved as `resnet_1d_pred.npy` and `resnet_1d_labels.npy`, respectively.
+- Run `resnet.py` or `densenet.py`, then the predicted 1, 3, 5, and 7-day mortality outcomes for the testing set will be saved.
+- For example, the 1-day mortality predictions and corresponding ground truth from ResNet will be saved as `resnet_1d_pred.npy` and `resnet_1d_labels.npy`, respectively.
 
 ## Train MIL models from PBS and WBC
 
