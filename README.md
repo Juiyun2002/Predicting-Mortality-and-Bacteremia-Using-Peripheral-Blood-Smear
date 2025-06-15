@@ -23,9 +23,12 @@ For bacteremia prediction, run `MIL_bacteremia.ipynb`
 
 ## Train Structured Data Models
 To run the structured data models for bacteremia and mortality (1, 3, and 5 days) prediction:
-
-Data Used:
-- Structured clinical data in csv_data/lab_data 20240509-20240801.csv & csv_data/input_v5.csv &csv_data/test.csv
+### Data Preparation
+Structured clinical data files required:
+- csv_data/lab_data 20240509-20240801.csv
+- csv_data/input_v5.csv
+- csv_data/test.csv
+### Execution Commands
 How to Run:
 - python csv_bacteremia.py 
 - python csv_mortality.py 
