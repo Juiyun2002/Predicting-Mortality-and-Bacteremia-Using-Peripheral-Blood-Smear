@@ -33,3 +33,25 @@ How to Run:
 - python csv_bacteremia.py 
 - python csv_mortality.py 
 
+## Train Transformers from PBS
+### Data Preparation
+- structure of dataset:
+    ```
+    dataset/
+        ├── train/
+        │   ├── metadata.csv
+        │   ├── ... all images in train set
+        ├── validation/
+        │   ├── metadata.csv
+        │   ├── ... all images in validation set   
+    ```
+
+### Execution Commands
+- To train the MedGemma model, run:
+    ```bash
+    python train_medgemma.py 
+    ```
+    or 
+    ```bash
+    accelerate launch train_medgemma.py 
+    ```
